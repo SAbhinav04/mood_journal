@@ -1,9 +1,7 @@
-// Handle form submission and fetch entries
 const form = document.getElementById('journal-form');
 const entryText = document.getElementById('entry-text');
 const entriesList = document.getElementById('entries-list');
 
-// Fetch and display entries on page load
 window.addEventListener('DOMContentLoaded', fetchEntries);
 
 form.addEventListener('submit', async (e) => {

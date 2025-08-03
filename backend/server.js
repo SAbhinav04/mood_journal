@@ -1,4 +1,3 @@
-// Simple Mood Journal backend using Express, Mongoose, and Sentiment
 import express from 'express';
 import mongoose from 'mongoose';
 import Sentiment from 'sentiment';
